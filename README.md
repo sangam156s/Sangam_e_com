@@ -24,7 +24,7 @@
 
  
 **For Backend**
- 1. `git clone https://github.com/sangam156s/jwellery-e-commerce.git`
+ 1. `git clone https://github.com/sangam156s/Sangam_e_com.git`
  2. `cd jwellery-backend`
  3. `yarn`
  4. `yarn data:import`
