@@ -10,7 +10,6 @@ const Navbar = ({click}) => {
   const history = useHistory()
   const user = useSelector(state => state.user)
   const dispatch = useDispatch()
-  // console.log({user})
 
   const {cartItems} = cart
 
@@ -19,7 +18,6 @@ const Navbar = ({click}) => {
   }
 
   const _handleLogout = () => {
-    // console.log('click')
     dispatch(setInitialState())
     logout()
     history.push('/')
@@ -29,7 +27,7 @@ const Navbar = ({click}) => {
     <nav className="navbar">
       <div className="navbar__logo">
       <Link to="/">
-        <h2>Sangam Pandey's E-commerce</h2>
+        <h2>Pandeyji Jwellers</h2>
         </Link>
       </div>
 
